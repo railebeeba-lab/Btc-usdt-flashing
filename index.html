@@ -1683,6 +1683,34 @@ crypto education for beginners,
                 box-shadow: 0 6px 30px rgba(37, 211, 102, 0.5);
             }
 
+            .telegram-float {
+                position: fixed;
+                bottom: 110px;
+                right: 32px;
+                z-index: 999;
+            }
+
+            .telegram-btn {
+                width: 64px;
+                height: 64px;
+                background: #0088cc;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 32px;
+                color: white;
+                text-decoration: none;
+                box-shadow: 0 4px 20px rgba(0, 136, 204, 0.4);
+                transition: all 0.3s ease;
+                animation: pulse-glow 2s ease-in-out infinite;
+            }
+
+            .telegram-btn:hover {
+                transform: scale(1.1);
+                box-shadow: 0 6px 30px rgba(0, 136, 204, 0.5);
+            }
+
             @media (max-width: 1024px) {
                 .hero-grid {
                     grid-template-columns: 1fr;
@@ -1999,6 +2027,17 @@ crypto education for beginners,
                 }
 
                 .whatsapp-btn {
+                    width: 56px;
+                    height: 56px;
+                    font-size: 28px;
+                }
+
+                .telegram-float {
+                    bottom: 90px;
+                    right: 20px;
+                }
+
+                .telegram-btn {
                     width: 56px;
                     height: 56px;
                     font-size: 28px;
@@ -3211,6 +3250,19 @@ crypto education for beginners,
                 </div>
             </div>
         </footer>
+
+        <div class="telegram-float">
+            <a
+                href="https://t.me/Henryphilipbolt"
+                target="_blank"
+                class="telegram-btn"
+                title="Chat on Telegram"
+            >
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 0C7.16 0 0 7.16 0 16s7.16 16 16 16 16-7.16 16-16-7.16-16-16-16zm7.59 10.48l-2.89 13.62c-.22.98-.81 1.23-1.64.77l-4.54-3.36-2.19 2.11c-.24.24-.44.44-.91.44l.33-4.7 8.56-7.73c.37-.33-.08-.51-.58-.19l-10.57 6.66-4.56-1.43c-.99-.31-.99-.99.2-1.48l17.84-6.87c.82-.37 1.54.2 1.28 1.31z" fill="white"/>
+                </svg>
+            </a>
+        </div>
 
         <div class="whatsapp-float">
             <a
