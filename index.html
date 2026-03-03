@@ -12,7 +12,7 @@
         </title>
         <meta
             name="description"
-            content="Download Flash USDT Suite - Industry-leading crypto flash software for Windows, macOS, Linux & Android. Flash USDT, BTC, ETH & BNB instantly. Download APK for Android, software for desktop. 99.9% success rate, 24/7 support. Trusted by 75,000+ users worldwide."
+            content="Download Flash USDT Suite - Industry-leading crypto flash software for Windows & Android. Flash USDT, BTC, ETH & BNB instantly. Download APK for Android, software for desktop. 99.9% success rate, 24/7 support. Trusted by 75,000+ users worldwide."
         />
         <meta
             name="keywords"
@@ -273,7 +273,7 @@ crypto education for beginners,
                 "description": "Industry-leading cryptocurrency flash transaction software supporting falsh USDT,flash BTC, ETH, and BNB with 99.9% success rate.",
                 "url": "https://bolt-flasher.github.io/flash-usdt/",
                 "applicationCategory": "FinanceApplication",
-                "operatingSystem": "Windows, macOS, Linux, iOS, Android",
+                "operatingSystem": "Windows, Android",
                 "offers": [
                     {
                         "@type": "Offer",
@@ -2108,141 +2108,10 @@ crypto education for beginners,
                 }
             }
 
-        /* Festive Christmas/New Year Animations */
-        .snowflakes {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 9999;
-            overflow: hidden;
-        }
 
-        .snowflake {
-            position: absolute;
-            top: -20px;
-            color: #fff;
-            font-size: 1em;
-            animation: snowfall linear infinite;
-            opacity: 0.8;
-            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-        }
-
-        @keyframes snowfall {
-            0% {
-                transform: translateY(0) rotate(0deg);
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(100vh) rotate(360deg);
-                opacity: 0.3;
-            }
-        }
-
-        .snowflake:nth-child(1) { left: 5%; animation-duration: 8s; animation-delay: 0s; font-size: 0.8em; }
-        .snowflake:nth-child(2) { left: 15%; animation-duration: 12s; animation-delay: 1s; font-size: 1.2em; }
-        .snowflake:nth-child(3) { left: 25%; animation-duration: 10s; animation-delay: 2s; font-size: 0.9em; }
-        .snowflake:nth-child(4) { left: 35%; animation-duration: 14s; animation-delay: 0.5s; font-size: 1.1em; }
-        .snowflake:nth-child(5) { left: 45%; animation-duration: 9s; animation-delay: 3s; font-size: 0.7em; }
-        .snowflake:nth-child(6) { left: 55%; animation-duration: 11s; animation-delay: 1.5s; font-size: 1em; }
-        .snowflake:nth-child(7) { left: 65%; animation-duration: 13s; animation-delay: 2.5s; font-size: 0.85em; }
-        .snowflake:nth-child(8) { left: 75%; animation-duration: 8s; animation-delay: 0.8s; font-size: 1.3em; }
-        .snowflake:nth-child(9) { left: 85%; animation-duration: 10s; animation-delay: 1.2s; font-size: 0.75em; }
-        .snowflake:nth-child(10) { left: 95%; animation-duration: 15s; animation-delay: 2s; font-size: 1.15em; }
-        .snowflake:nth-child(11) { left: 10%; animation-duration: 11s; animation-delay: 3.5s; font-size: 0.95em; }
-        .snowflake:nth-child(12) { left: 30%; animation-duration: 9s; animation-delay: 4s; font-size: 1.05em; }
-        .snowflake:nth-child(13) { left: 50%; animation-duration: 12s; animation-delay: 0.3s; font-size: 0.8em; }
-        .snowflake:nth-child(14) { left: 70%; animation-duration: 10s; animation-delay: 1.8s; font-size: 1.1em; }
-        .snowflake:nth-child(15) { left: 90%; animation-duration: 14s; animation-delay: 2.8s; font-size: 0.9em; }
-
-        .festive-banner {
-            background: linear-gradient(90deg, #c41e3a 0%, #1a472a 50%, #c41e3a 100%);
-            background-size: 200% 100%;
-            animation: festive-gradient 5s ease infinite;
-            padding: 10px 20px;
-            text-align: center;
-            font-size: 14px;
-            font-weight: 600;
-            color: white;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1001;
-            overflow: hidden;
-            height: 42px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            white-space: nowrap;
-        }
-
-        .festive-banner::before,
-        .festive-banner::after {
-            content: '🎄';
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 18px;
-        }
-
-        .festive-banner::before {
-            left: 15px;
-        }
-
-        .festive-banner::after {
-            right: 15px;
-        }
-
-        @keyframes festive-gradient {
-            0%, 100% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-        }
-
-        .festive-glow {
-            animation: festive-pulse 2s ease-in-out infinite;
-        }
-
-        @keyframes festive-pulse {
-            0%, 100% { 
-                box-shadow: 0 0 20px rgba(196, 30, 58, 0.4), 0 0 40px rgba(26, 71, 42, 0.3);
-            }
-            50% { 
-                box-shadow: 0 0 30px rgba(196, 30, 58, 0.6), 0 0 60px rgba(26, 71, 42, 0.5);
-            }
-        }
 
         /* Enhanced Mobile Optimizations */
         @media (max-width: 768px) {
-            .festive-banner {
-                font-size: 11px;
-                padding: 8px 30px;
-                height: 36px;
-            }
-
-            .festive-banner::before,
-            .festive-banner::after {
-                font-size: 12px;
-            }
-
-            header {
-                top: 36px !important;
-            }
-
-            .mobile-nav {
-                top: 106px !important;
-            }
-
-            .hero {
-                padding-top: 110px !important;
-            }
-
-            .snowflake {
-                font-size: 0.7em;
-            }
-
             .hero-content {
                 padding: 0 10px;
             }
@@ -2436,29 +2305,7 @@ crypto education for beginners,
         </style>
     </head>
     <body>
-        <!-- Festive Snowfall Animation -->
-        <div class="snowflakes" aria-hidden="true">
-            <div class="snowflake">❄</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❆</div>
-            <div class="snowflake">❄</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❆</div>
-            <div class="snowflake">❄</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❆</div>
-            <div class="snowflake">❄</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❆</div>
-            <div class="snowflake">❄</div>
-            <div class="snowflake">❅</div>
-            <div class="snowflake">❆</div>
-        </div>
 
-        <!-- Festive Holiday Banner -->
-        <div class="festive-banner">
-            🎅 Happy Holidays! Special New Year Offers Available — Limited Time Only! 🎉
-        </div>
         <header role="banner">
             <nav class="container" role="navigation" aria-label="Main Navigation">
                 <a href="index.html" class="logo" aria-label="Flash USDT Suite Home">
@@ -2648,33 +2495,14 @@ crypto education for beginners,
                             <span>⬇️</span> Download for Windows
                         </a>
                     </div>
-                    <div class="download-resource-card">
-                        <div class="resource-icon">🍎</div>
-                        <h3>macOS</h3>
-                        <p>
-                            Download Flash USDT Suite for macOS 10.13 or later
-                        </p>
-                        <a href="https://mega.nz/file/C44FVLhR#NQeiGWEaz7BIqlbdwpAG2cLLTb081J6jfV1Ce6ke13o" target="_blank" class="btn-download-secondary">
-                            <span>⬇️</span> Download for macOS
-                        </a>
-                    </div>
-                    <div class="download-resource-card">
-                        <div class="resource-icon">🐧</div>
-                        <h3>Linux</h3>
-                        <p>
-                            Download Flash USDT Suite for Linux (Ubuntu, Debian, Fedora)
-                        </p>
-                        <a href="https://mega.nz/file/C44FVLhR#NQeiGWEaz7BIqlbdwpAG2cLLTb081J6jfV1Ce6ke13o" target="_blank" class="btn-download-secondary">
-                            <span>⬇️</span> Download for Linux
-                        </a>
-                    </div>
+
                     <div class="download-resource-card">
                         <div class="resource-icon">📱</div>
                         <h3>Android Mobile</h3>
                         <p>
                             Download Flash USDT Suite APK for Android 8.0+
                         </p>
-                        <a href="https://mega.nz/file/2sYGwS4B#AlkwESBzA4CsEvyX7MDSwHXCFxyIS8bjIkKDVLwVHTQ" target="_blank" class="btn-download-secondary">
+                        <a href="https://mega.nz/file/ephTXBqA#Wxv2aDs6YJlL0Sgm63RqXhKLj7KEqb6JslH8Gq9-2-M" target="_blank" class="btn-download-secondary">
                             <span>⬇️</span> Download for Android
                         </a>
                     </div>
@@ -3081,20 +2909,7 @@ crypto education for beginners,
                         <a href="https://mega.nz/file/m44nyAKa#F7GUOdCk6c0EQPjCc0LwN-JtQQCsOCNmZvw1wx9Ujak" target="_blank" class="btn btn-download">Download</a>
                         <span class="version-info">v1.0.0 • 1131.5 MB</span>
                     </div>
-                    <div class="download-card">
-                        <div class="platform-icon">🍎</div>
-                        <h3>macOS</h3>
-                        <p>Compatible with macOS 10.12 and above</p>
-                        <button class="btn btn-download" onclick="alert('macOS version coming soon!')">Coming Soon</button>
-                        <span class="version-info">v1.0.0 • </span>
-                    </div>
-                    <div class="download-card">
-                        <div class="platform-icon">🐧</div>
-                        <h3>Linux</h3>
-                        <p>Compatible with all major distributions</p>
-                        <button class="btn btn-download" onclick="alert('Linux version coming soon!')">Coming Soon</button>
-                        <span class="version-info">v1.0.0 •</span>
-                    </div>
+
                 </div>
             </div>
         </section>
